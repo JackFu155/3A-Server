@@ -1,0 +1,34 @@
+{
+  "name": "3A-Server-Start",
+  "version": "1.0.0",
+  "description": "3A Server Demo",
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.13.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackFu155/3A-Server-Start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackFu155/3A-Server-Start/issues"
+  },
+  "homepage": "https://github.com/JackFu155/3A-Server-Start#readme",
+  "dependencies": {
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
